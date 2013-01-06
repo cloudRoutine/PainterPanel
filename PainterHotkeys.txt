@@ -1,0 +1,57 @@
+|-----------------------|
+| Corel Painter Hotkeys |
+|-----------------------|
+
+
+Undo                        ::      Ctrl  + Z
+Redo                        ::      Ctrl  + Y
+ 
+Zoom In                     ::      Ctrl  + +
+Zoom Out                    ::      Ctrl  + -
+Zoom To Fit                 ::      Ctrl  + 0
+
+Brush Size Increase         ::      ]
+Brush Size Decrease         ::      [
+Brush Tool                  ::      B
+Eraser Tool                 ::      N
+
+Lasso Tool                  ::      L
+Rectangular Selection       ::      R
+Select All                  ::      Ctrl  + A
+Deselect                    ::      Ctrl  + D
+
+Delete Selected             ::      BackSpace
+
+Hand Tool                   ::      Spacebar
+Layer Adjuster              ::      F
+Toggle Mirror Mode          ::      Ctrl  + Alt  + M
+Toggle Kaleidoscope Mode    ::      Ctrl  + K 
+  
+Drop                        ::      Ctrl  + D 
+Flip Canvas Horizontal      ::      Ctrl  + Alt  + H
+Flip Canvas Vertical        ::      Ctrl  + Alt  + V
+
+New Layer                   ::      F2
+Layer Panel                 ::      Ctrl  + 4
+
+Switch Color                ::      Shift + S
+Color Panel                 ::      Ctrl  + 4
+
+Drop                        ::      Shift + D
+
+Free Transform              ::      Ctrl  + Alt  + T
+Cut                         ::      Ctrl  + X
+Copy                        ::      Ctrl  + C
+Paste In Place              ::      Shift + Ctrl + V
+
+Set Opacity to 10%          ::      1
+Set Opacity to 20%          ::      2
+Set Opacity to 30%          ::      3
+Set Opacity to 40%          ::      4
+Set Opacity to 50%          ::      5
+Set Opacity to 60%          ::      6
+Set Opacity to 70%          ::      7
+Set Opacity to 80%          ::      8
+Set Opacity to 90%          ::      9
+Set Opacity to 100%         ::      0
+
