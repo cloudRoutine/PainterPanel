@@ -6,9 +6,10 @@
 Undo                        ::      Ctrl  + Z
 Redo                        ::      Ctrl  + Y
  
+Zoom Tool                   ::      M
 Zoom In                     ::      Ctrl  + +
 Zoom Out                    ::      Ctrl  + -
-Zoom To Fit                 ::      Ctrl  + 0
+Fit Screen                  ::      Ctrl  + 0
 
 Brush Size Increase         ::      ]
 Brush Size Decrease         ::      [

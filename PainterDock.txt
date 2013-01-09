@@ -1,0 +1,325 @@
+﻿;-----------------------------------------------------------------------------|
+;------------------------------ Window Settings ------------------------------|
+;-----------------------------------------------------------------------------|
+
+
+; Background color of window.
+#Window:Color=Black
+; Default font color.
+#Window:FontColor=9B9B9B
+; Font color when button is pressed.
+#Window:ActiveFontColor=00C0FF
+
+; Specify Start-up window position by Left/Right/Top/Bottom. (alone or in combination)
+#Window:Pos=RightTop
+; You can also specify window position by the coordinate.
+;#Window:X=0
+;#Window:Y=0
+
+; Window size (If not specified, window size will be set automatically.)
+;#Window:Width=125
+;#Window:Height=550
+; Margin
+#Window:MarginLeft=5
+#Window:MarginTop=0
+#Window:MarginRight=5
+#Window:MarginBottom=0
+
+; Window transparency: Full transparent 0 ~ 255 Opaque
+#Window:Transparent=200
+
+
+
+;-----------------------------------------------------------------------------|
+;----------------------------  Controls settings -----------------------------|
+;-----------------------------------------------------------------------------|
+
+
+#ControlOffset:0, 0 ;----------------- Row 1 ---------------------------------
+
+; Redo
+#Control:Key
+	Name=Redo
+	Pos=0, 0, 75, 75
+	Image1=img\redo.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{y Down}
+	UpKey={y Up}{Ctrl Up}
+
+; Undo
+#Control:Key
+	Name=Undo
+	Pos=78, 0, 75, 75
+	Image1=img\undo.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{z Down}
+	UpKey={z Up}{Ctrl Up}
+
+
+#ControlOffset:0, 78 ;----------------- ROW 2 --------------------------------
+
+; Eraser
+#Control:Key
+	Name=Eraser
+	Pos=0, 0, 75, 75
+	Image1=img\eraser.bmp
+	Image2=img\cut.bmp
+	Downkey={n Down}
+	UpKey={n Up}
+
+; Brush
+#Control:Key
+	Name=Brush
+	Pos=78, 0, 75, 75
+	Image1=img\brush.bmp
+	Image2=img\cut.bmp
+	Downkey={b Down}
+	UpKey={b Up}
+
+
+#ControlOffset:0, 78 ;----------------- ROW 3 --------------------------------
+
+; Brush Size Up
+#Control:Key
+ 	Name=BrushSizeUp
+ 	Pos=0, 0, 75, 75
+ 	Image1=img\brush_size_up.bmp
+ 	Image2=img\cut.bmp
+ 	Downkey={] Down}
+;	UpKey={] Up}
+
+; Brush Size Down
+#Control:Key
+ 	Name=BrushSizeDown
+ 	Pos=78, 0, 75, 75
+ 	Image1=img\brush_size_down.bmp
+ 	Image2=img\cut.bmp
+ 	Downkey={[ Down}
+;	UpKey={[ Up}
+
+
+#ControlOffset:0, 78 ;----------------- ROW 4 --------------------------------
+
+; Layer Adjust
+#Control:Key
+	Name=LayerAdjust
+	Pos=0, 0, 75, 75
+	Image1=img\layer_adjust.bmp
+	Image2=img\cut.bmp
+	Downkey={f Down}
+	UpKey={f Up}
+
+; Grabber
+#Control:Key
+	Name=Grabber
+	Pos=78, 0, 75, 75
+	Image1=img\grabber.bmp
+	Image2=img\cut.bmp
+	Downkey={\ Down}
+	UpKey={\ Up}
+
+
+#ControlOffset:0, 78 ;----------------- ROW 5 --------------------------------
+
+; Rectangle Selection
+#Control:Key
+	Name=RectangleSelection
+	Pos=0, 0, 75, 75
+	Image1=img\rectangle_selection.bmp
+	Image2=img\cut.bmp
+	Downkey={r Down}
+	UpKey={r Up}
+
+; Lasso
+#Control:Key
+	Name=Lasso
+	Pos=78, 0, 75, 75
+	Image1=img\lasso_tool.bmp
+	Image2=img\cut.bmp
+	Downkey={l Down}
+	UpKey={l Up}
+
+
+#ControlOffset:0, 78 ;----------------- ROW 6 --------------------------------
+
+; Deselect
+#Control:Key
+ 	Name=Deselect
+ 	Pos=0, 0, 75, 75
+ 	Image1=img\deselect.bmp
+ 	Image2=img\cut.bmp
+ 	Downkey=^d
+;	UpKey=
+
+; Select All
+#Control:Key
+ 	Name=SelectAll
+ 	Pos=78, 0, 75, 75
+ 	Image1=img\select_all.bmp
+ 	Image2=img\cut.bmp
+ 	Downkey=^a
+;	UpKey=
+
+
+#ControlOffset:0, 78 ;----------------- ROW 7 --------------------------------
+
+; Zoom Tool
+#Control:Key
+	Name=ZoomTool
+	Pos=0, 0, 75, 75
+	Image1=img\zoom_tool.bmp
+	Image2=img\cut.bmp
+	Downkey={m Down}
+	UpKey={m Up}
+
+; Fit Screen
+#Control:Key
+	Name=FitScreen
+	Pos=78, 0, 75, 75
+	Image1=img\fit_screen.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{0 Down}
+	UpKey={0 Up}{Ctrl Up}
+
+
+#ControlOffset:0, 78 ;----------------- ROW 8 --------------------------------
+
+; Zoom In
+#Control:Key
+	Name=ZoomIn
+	Pos=0, 0, 75, 75
+	Image1=img\zoom_in.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{+ Down}
+	UpKey={+ Up}{Ctrl U}
+
+; Zoom Out
+#Control:Key
+	Name=ZoomOut
+	Pos=78, 0, 75, 75
+	Image1=img\zoom_out.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{- Down}
+	UpKey={- Up}{Ctrl Up}
+
+
+#ControlOffset:0, 78 ;----------------- ROW 9 --------------------------------
+
+; Cut
+#Control:Key
+ 	Name=Cut
+ 	Pos=0, 0, 75, 75
+ 	Image1=img\cut.bmp
+ 	Image2=img\cut.bmp
+ 	Downkey=^x
+;	UpKey=
+
+; Alt
+#Control:Key
+	Name=Alt
+	Pos=78, 0, 75, 75
+	Image1=img\alt.bmp
+	Image2=img\cut.bmp
+	Downkey={Alt Down}
+	UpKey={Alt Up}
+
+
+#ControlOffset:0, 78 ;----------------- ROW 10 -------------------------------
+
+; Control
+#Control:Key
+	Name=Control
+	Pos=0, 0, 75, 75
+	Image1=img\control.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}
+	UpKey={Ctrl Up}
+
+; Shift
+#Control:Key
+	Name=Shift
+	Pos=78, 0, 75, 75
+	Image1=img\shift.bmp
+	Image2=img\cut.bmp
+	Downkey={Shift Down}
+	UpKey={Shift Up}
+
+#ControlOffset:0, 78 ;----------------- ROW 11 -------------------------------
+
+; Toggle Kaleidescope
+#Control:Key
+	Name=ToggleKaleidescope
+	Pos=0, 0, 75, 75
+	Image1=img\toggle_kaleidescope.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{k Down}
+	UpKey={k Up}{Ctrl Up}
+
+; Toggle Mirror
+#Control:Key
+	Name=ToggleMirror
+	Pos=78, 0, 75, 75
+	Image1=img\toggle_mirror.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{Alt Down}{m Down}
+	UpKey={m Up}{Alt Up}{Ctrl Up}
+
+#ControlOffset:0, 78 ;----------------- ROW 12 -------------------------------
+
+; Flip Vertical
+#Control:Key
+	Name=FlipVertical
+	Pos=0, 0, 75, 75
+	Image1=img\flip_vertical.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{Alt Down}{v Down}
+	UpKey={v Up}{Alt Up}{Ctrl Up}
+
+; Flip Horizontal
+#Control:Key
+	Name=FlipHorizontal
+	Pos=78, 0, 75, 75
+	Image1=img\flip_horizontal.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{Alt Down}{h Down}
+	UpKey={h Up}{Alt Up}{Ctrl Up}
+
+#ControlOffset:0, 78 ;----------------- ROW 13 -------------------------------
+
+; Switch Colors
+#Control:Key
+	Name=SwitchColors
+	Pos=0, 0, 75, 75
+	Image1=img\switch_colors.bmp
+	Image2=img\cut.bmp
+	Downkey={Shift Down}{s Down}
+	UpKey={s Up}{Shift Up}
+
+; Color Panel
+#Control:Key
+	Name=ColorPanel
+	Pos=78, 0, 75, 75
+	Image1=img\color_panel.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{1 Down}
+	UpKey={1 Up}{Ctrl Up}
+
+#ControlOffset:0, 78 ;----------------- ROW 14 -------------------------------
+
+; New Layer
+#Control:Key
+	Name=NewLayer
+	Pos=0, 0, 75, 75
+	Image1=img\new_layer.bmp
+	Image2=img\cut.bmp
+	Downkey={F2 Down}
+	UpKey={F2 Up}
+
+; Layer Panel
+#Control:Key
+	Name=LayerPanel
+	Pos=78, 0, 75, 75
+	Image1=img\layer_panel.bmp
+	Image2=img\cut.bmp
+	Downkey={Ctrl Down}{4 Down}
+	UpKey={4 Up}{Ctrl Up}

@@ -99,7 +99,7 @@ RID_Usage = 0x04	;Touch Screen
 ;	or if you drop .txt file into this script (or run this script with argumnt), 
 ;	.txt file will be loaded as a Control definition file.
 
-ControlSource = PaintDock.txt
+ControlSource = PainterDock.txt
 
 ; Hide window if mouse cursor comes over the window. (1:Enable / 0:Disable)
 HideOnMouseCursor := 1
